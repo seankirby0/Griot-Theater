@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.hover:hover {
+	cursor: pointer;
+}
+.nav-custom {
+	padding: 10px;
+	background-color: #000;
+}
+.navbar-inner {
+	width: 95%;
+	margin: auto;
+}
+.navbar-brand {
+	font-size: 24px;
+}
+.nav-custom .nav-item {
+	color: #fff !important;
+	padding-left: 30px !important;
+}
+.nav-custom .nav-item:hover {
+	color: #f7b72e !important;
+	padding-left: 30px !important;
+}
+.banner {
+	background-image: url("../img/IMG_1640.PNG");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 22%;
+}
+.banner-heading {
+	font-size: 100px;
+	text-align: center;
+	color: #fff;
+}
+.main-body {
+	padding-top: 10%;
+
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.date-heading {
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f4f4f4;
+	border: 2px solid rgb(194, 194, 194);
+}
+.main-section {
+	padding-top: 4%;
+	padding-bottom: 4%;
+	border-bottom: 2px solid rgb(194, 194, 194);
+}
+.btn-default {
+	font-size: 24px;
+	background-color: #f7b72e;
+	color: #fff;
+	font-weight: 500;
+	padding: 10px;
+}
+.btn-default:hover {
+	font-size: 24px;
+	background-color: #d49100;
+	color: #fff;
+	font-weight: 500;
+}
+
+/*FOOTER*/
+
+footer {
+	background: #000000;
+
+	color: white;
+	margin-top: 30px;
+}
+
+footer a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 3;
+	transition-duration: 0.2s;
+}
+
+footer a:hover {
+	color: #c2c2c2;
+	text-decoration: none;
+}
+
+.copy {
+	font-size: 12px;
+	padding: 10px;
+	border-top: 1px solid #ffffff;
+}
+
+.footer-middle {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	color: white;
+}
+svg.svg-inline--fa.fa-home.fa-w-18.me-3,
+svg.svg-inline--fa.fa-envelope.fa-w-16.me-3,
+svg.svg-inline--fa.fa-phone.fa-w-16.me-3 {
+	color: #f7b72e;
+}
+  @media (max-width: 576px) {
+          .banner-heading {
+            font-size: 25px;
+            text-align: center;
+            color: #fff;
+            padding-top: 60px;
+        }
+         }
